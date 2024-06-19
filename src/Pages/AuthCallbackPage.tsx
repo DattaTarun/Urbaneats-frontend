@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 import { useCreateMyUser } from "@/Api/MyUserApi";
 import { useAuth0 } from "@auth0/auth0-react";
 import { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
+=======
+import { useCreateMyUser } from '@/Api/MyUserApi';
+import { useAuth0 } from '@auth0/auth0-react'
+import { useEffect, useRef } from 'react'
+import { useNavigate } from 'react-router-dom';
+>>>>>>> e125525a71c36d28a625487daf98302b6eb2b3b2
 
 
 const AuthCallbackPage = () => {

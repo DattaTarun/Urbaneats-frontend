@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Link } from 'react-router-dom'
 import Mobilenav from './Mobilenav'
 import Mainnav from './Mainnav'
