@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from './ui/dropdown-menu'
 import { CircleUserRound } from 'lucide-react'
 import { useAuth0 } from '@auth0/auth0-react'
@@ -16,6 +16,11 @@ function UsernameMenu() {
             {user?.email}
         </DropdownMenuTrigger>
         <DropdownMenuContent>
+        <DropdownMenuItem>
+                <Link to="/manage-restaurant" className='font-bold hover:text-orange-500'>
+                    Manage Restaurant
+                </Link>
+            </DropdownMenuItem>
             <DropdownMenuItem>
                 <Link to="/user-profile" className='font-bold hover:text-orange-500'>
                     User Profile
