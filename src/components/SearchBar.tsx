@@ -19,7 +19,7 @@ type Props={
     onSubmit:(FormData:SearchForm)=>void,
     placeHolder:string,
     onReset?:()=>void
-    searchQuery:string
+    searchQuery?:string
 }
 
 
